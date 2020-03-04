@@ -35,7 +35,7 @@ func main() {
 
 		io.WriteString(w, string(out))
 
-		fmt.Println("Hello world - the log message")
+		fmt.Println("Greetings from AWS!  This is running on Amazon EKS!")
 	})
 	http.ListenAndServe(":8080", nil)
 }
